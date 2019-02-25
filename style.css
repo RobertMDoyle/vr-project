@@ -1,0 +1,240 @@
+/* Base Styles -------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    font: 1em/1.5 Helvetica, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section {
+    margin: 80px 0;
+}
+
+
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+a:link {
+    color: blue;
+}
+
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: #F0721F;
+}
+
+
+main, aside, footer {
+    width: 100%;
+    text-align: center;
+}
+
+h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+main {
+    background-color: lightgray;
+    padding: 10px 0;
+}
+
+
+
+/* Header */
+
+.main-header {
+    background: linear-gradient(#009fe1, #3acec2);
+    position: relative;
+    height: 425px;
+    width: 100%;
+    background-image: url("img/planet.png");
+    background-size: cover;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 87%, 0% 100%);
+
+}
+
+.main-header nav ul{
+
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.main-header nav li{
+
+    display: inline-block;
+    padding: 10px;
+    color: white;
+
+}
+
+header h1 {
+    display: block;
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.main-header nav ul li a {
+    color: inherit;
+}
+
+.main-header  a:hover {
+    color: #F0721F;
+    
+}
+
+header p {
+
+    display: block;
+    font-size: 1em;
+    color: orange;
+    text-align: center;
+    font-weight: 400;
+    
+}
+
+
+.vr-user {
+    
+    height: 150px;
+    width: auto;
+    border-radius: 50%;
+    border: white solid 3px;
+    display: block;
+    margin: auto;
+    top: -120px;
+}
+    
+#vr-user-wrapper {
+    
+    
+    position: relative;
+    text-align: center;
+    margin: -110px 550px 100px 550px;
+    
+}
+
+#vr-user-wrapper #button1 {
+    
+    color: white;
+    background-color: rgba(184, 8, 37, 0.822);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 10px;
+
+}
+
+#vr-user-wrapper #button1:hover {
+    background-color: rgba(138, 6, 28, 0.822);
+    
+}
+
+#vr-user-wrapper p {
+    margin: 30px 0;
+}
+
+/* About Section */
+
+#about h2 {
+    font-size: 2em;
+    padding: 10px 0;
+}
+
+#about p, img, figcaption {
+    margin-bottom: 20px;
+}
+
+/* Contact */
+
+#contact {
+
+width: 450px;
+margin: 0 auto;
+padding-left: 30px;
+padding-bottom: 40px;
+
+}
+
+#contact p  {
+    text-align: left
+    }
+   
+#contact address {
+        text-align: left
+        }
+
+/* Aside */
+
+aside {
+
+    padding-top: 30px;
+    background-color: lightgrey;
+}
+
+aside ol {
+    margin-bottom: 70px;
+}
+
+
+
+/* Footer */
+
+footer {
+    background-color: #464F4C;
+    color: white;
+    padding-top: 25px;
+}
+
+footer a:visited{
+    color: white;
+}
+
+footer a:hover{
+    color: #F0721F;
+    
+}
+
+/* Articles */
+
+#vr-article p {
+
+    color: black;
+}
+
+#vr-man {
+    border-radius: 50%;
+    border: 3px solid grey;
+    margin: 50px 0;
+    
+    
+}
+
+
+
+
+
